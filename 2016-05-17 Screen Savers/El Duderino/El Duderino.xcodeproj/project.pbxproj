@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB00767B1CEA990F00E16CD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB00767A1CEA990F00E16CD4 /* Images.xcassets */; };
+		CB2C91281CE6106800EA59CB /* ElDuderinoView.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2C91271CE6106800EA59CB /* ElDuderinoView.h */; };
+		CB2C912A1CE6106800EA59CB /* ElDuderinoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2C91291CE6106800EA59CB /* ElDuderinoView.m */; };
+		CB61E3B51CE6137000FACFCD /* Dude.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CB61E3B41CE6137000FACFCD /* Dude.mp4 */; };
+		CB61E3B81CE6188D00FACFCD /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB61E3B71CE6188D00FACFCD /* ConfigureSheet.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB00767A1CEA990F00E16CD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB00767C1CEA992800E16CD4 /* thumbnail.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = thumbnail.sketch; sourceTree = "<group>"; };
+		CB2C91241CE6106800EA59CB /* El Duderino.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "El Duderino.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2C91271CE6106800EA59CB /* ElDuderinoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElDuderinoView.h; sourceTree = "<group>"; };
+		CB2C91291CE6106800EA59CB /* ElDuderinoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElDuderinoView.m; sourceTree = "<group>"; };
+		CB2C912B1CE6106800EA59CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB61E3B41CE6137000FACFCD /* Dude.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dude.mp4; sourceTree = "<group>"; };
+		CB61E3B71CE6188D00FACFCD /* ConfigureSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigureSheet.xib; sourceTree = "<group>"; };
+		CBE28A1F1CE75E1400F23086 /* Installer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Installer; sourceTree = SOURCE_ROOT; };
+		CBE8120D1CE76525007DE38F /* run-pre-action.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "run-pre-action.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB2C91201CE6106800EA59CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB00767D1CEA99E400E16CD4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB00767C1CEA992800E16CD4 /* thumbnail.sketch */,
+				CB61E3B41CE6137000FACFCD /* Dude.mp4 */,
+				CB00767A1CEA990F00E16CD4 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CB2C911A1CE6106800EA59CB = {
+			isa = PBXGroup;
+			children = (
+				CB2C91261CE6106800EA59CB /* El Duderino */,
+				CB2C91251CE6106800EA59CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB2C91251CE6106800EA59CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB2C91241CE6106800EA59CB /* El Duderino.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB2C91261CE6106800EA59CB /* El Duderino */ = {
+			isa = PBXGroup;
+			children = (
+				CB2C91271CE6106800EA59CB /* ElDuderinoView.h */,
+				CB2C91291CE6106800EA59CB /* ElDuderinoView.m */,
+				CB61E3B71CE6188D00FACFCD /* ConfigureSheet.xib */,
+				CB2C912B1CE6106800EA59CB /* Info.plist */,
+				CBE8120D1CE76525007DE38F /* run-pre-action.sh */,
+				CBE28A1F1CE75E1400F23086 /* Installer */,
+				CB00767D1CEA99E400E16CD4 /* Resources */,
+			);
+			path = "El Duderino";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CB2C91211CE6106800EA59CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2C91281CE6106800EA59CB /* ElDuderinoView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CB2C91231CE6106800EA59CB /* El Duderino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2C912E1CE6106800EA59CB /* Build configuration list for PBXNativeTarget "El Duderino" */;
+			buildPhases = (
+				CB2C911F1CE6106800EA59CB /* Sources */,
+				CB2C91201CE6106800EA59CB /* Frameworks */,
+				CB2C91211CE6106800EA59CB /* Headers */,
+				CB2C91221CE6106800EA59CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "El Duderino";
+			productName = "El Duderino";
+			productReference = CB2C91241CE6106800EA59CB /* El Duderino.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB2C911B1CE6106800EA59CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Karl Moskowski";
+				TargetAttributes = {
+					CB2C91231CE6106800EA59CB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CB2C911E1CE6106800EA59CB /* Build configuration list for PBXProject "El Duderino" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB2C911A1CE6106800EA59CB;
+			productRefGroup = CB2C91251CE6106800EA59CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB2C91231CE6106800EA59CB /* El Duderino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB2C91221CE6106800EA59CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB00767B1CEA990F00E16CD4 /* Images.xcassets in Resources */,
+				CB61E3B81CE6188D00FACFCD /* ConfigureSheet.xib in Resources */,
+				CB61E3B51CE6137000FACFCD /* Dude.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB2C911F1CE6106800EA59CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2C912A1CE6106800EA59CB /* ElDuderinoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB2C912C1CE6106800EA59CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Karl Moskowski (E384S427VZ)";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		CB2C912D1CE6106800EA59CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Karl Moskowski (E384S427VZ)";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		CB2C912F1CE6106800EA59CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "El Duderino/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.karlmoskowski.El-Duderino";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		CB2C91301CE6106800EA59CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "El Duderino/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.karlmoskowski.El-Duderino";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB2C911E1CE6106800EA59CB /* Build configuration list for PBXProject "El Duderino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2C912C1CE6106800EA59CB /* Debug */,
+				CB2C912D1CE6106800EA59CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB2C912E1CE6106800EA59CB /* Build configuration list for PBXNativeTarget "El Duderino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2C912F1CE6106800EA59CB /* Debug */,
+				CB2C91301CE6106800EA59CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB2C911B1CE6106800EA59CB /* Project object */;
+}

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Built into the installer package, and run automatically after the install is done.
+
+# Launch System Preferences > Desktop & Screen Saver
+osascript <<'END'
+tell application "System Preferences"
+	activate
+	reveal anchor "ScreenSaverPref" of pane id "com.apple.preference.desktopscreeneffect"
+end tell
+END
+
+exit 0

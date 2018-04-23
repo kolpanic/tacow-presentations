@@ -1,0 +1,8 @@
+{
+    IBClasses = (
+        {CLASS = DemoProgressSlider; LANGUAGE = ObjC; SUPERCLASS = NSSlider; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = PDFAlphaKicker; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+	<channel>
+		<title> tacow UpdateCheckTest </title>
+		<link>http://127.0.0.1/tacow/appcast.xml</link>
+		<description>tacow UpdateCheckTest Appcast</description>
+		<language>en</language>
+		<item>
+			<title>tacow (5)</title>
+			<description>Now supports updates via both Sparkle and roll-your-own methods.</description>
+			<pubDate>Tues, 9 Jan 2007 18:30:00 -0500</pubDate>
+			<enclosure sparkle:version="5" sparkle:shortVersionString="1.0" url="http://127.0.0.1/tacow/UpdateCheckTest.zip" length="560233" type="application/octet-stream"/>
+		</item>
+	</channel>
+</rss>

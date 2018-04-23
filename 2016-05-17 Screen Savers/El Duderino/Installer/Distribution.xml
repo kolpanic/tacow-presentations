@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<installer-gui-script minSpecVersion="1">
+    <title>El Duderino Screen Saver</title>
+    <background file="background.png" mime-type="image/png" />
+    <welcome file="welcome.txt" />
+    <pkg-ref id="me.karlmoskowski.El-Duderino"/>
+    <options customize="never" require-scripts="false"/>
+    <choices-outline>
+        <line choice="default">
+            <line choice="me.karlmoskowski.El-Duderino"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="me.karlmoskowski.El-Duderino" visible="false">
+        <pkg-ref id="me.karlmoskowski.El-Duderino"/>
+    </choice>
+    <pkg-ref id="me.karlmoskowski.El-Duderino" version="1.0" onConclusion="none">Intermediate.pkg</pkg-ref>
+    <allowed-os-versions>
+        <os-version min="10.11" />
+    </allowed-os-versions>
+    <domains enable_anywhere="false" enable_currentUserHome="true" enable_localSystem="true" />
+</installer-gui-script>
